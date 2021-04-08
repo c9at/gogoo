@@ -26,12 +26,11 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: mirror.loerfy.now.sh
-  proxy: www.google.com
-
+  self: gogoo.vercel.app
+  proxy: startpage.com
 replaced_urls:
-  - old: www.google.com
-    new: mirror.loerfy.now.sh
+  - old: startpage.com
+    new: gogoo.vercel.app
 `
 var Config *Yaml
 var Protocal string
